@@ -6,7 +6,7 @@ function Header() {
       text-white p-4 rounded-2xl shadow-md"
     >
       <div className="logo">
-        <h2 className="text-xl font-bold">Jamal</h2>
+        <h2 className="text-2xl md:text-4xl font-bold font-Orbitron ">JAMAL</h2>
       </div>
 
       <nav>

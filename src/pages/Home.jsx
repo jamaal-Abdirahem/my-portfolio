@@ -1,5 +1,6 @@
 import ProjectCard from "../components/ProjectCard";
 import Header from "../layouts/Header";
+import { Linkedin, Facebook, Github } from "lucide-react";
 
 function Home() {
   const projects = [
@@ -93,6 +94,60 @@ function Home() {
           see more
           <span className="absolute left-0 -bottom-1 w-0 h-[3px] bg-orange-500 transition-all duration-300 group-hover:w-full"></span>
         </button>
+      </div>
+
+      {/* contact us */}
+      <div className="py-16 px-6">
+        <div className="mt-15 max-w-2xl mx-auto flex flex-col gap-6 items-center">
+          <h3 className="text-2xl text-orange-500  font-bold  font-syne capitalize">
+            Get in touch
+          </h3>
+          <p className="text-2xl md:text-4xl underline font-rubik">
+            Jamaalabdirahim@gmail.com
+          </p>
+        </div>
+      </div>
+      {/* footer */}
+      <div className="py-16 px-9 justify-center items-center">
+        <div className="mt-2 max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 text-center ">
+          <div className="">
+            <h2 className="text-2xl md:text-4xl text-justify md:text-center font-bold font-Orbitron">
+              JAMAL
+            </h2>
+          </div>
+
+          <div className="">
+            <p className="text-[20px] text-justify font-rubik text-gray-200 ">
+              Warta Nabadda District,
+              <br /> Mogadishu,
+              <br /> Somalia
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-2">
+            <p className="text-[20px] text-gray-200 text-justify font-rubik  ">
+              +252-614430837
+            </p>
+            <div className="flex flex-row gap-3 items-center ">
+              <div className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm hover:bg-gray-700 cursor-pointer">
+                <Facebook className="text-white w-5 h-5" />
+              </div>
+              <div className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm hover:bg-gray-700 cursor-pointer">
+                <Linkedin className="text-white w-5 h-5" />
+              </div>
+              <div className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm hover:bg-gray-700 cursor-pointer">
+                <Github className="text-white w-5 h-5" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="px-4 py-2 mt-5 max-w-5xl mx-auto justify-center items-center">
+        <hr />
+        <p className="text-[20px] text-gray-200 mt-3">
+          {" "}
+          &copy; {new Date().getFullYear()} JAMAL. All rights reserved.
+        </p>
       </div>
     </div>
   );
