@@ -128,16 +128,39 @@ function Home() {
             <p className="text-[20px] text-gray-200 text-justify font-rubik  ">
               +252-614430837
             </p>
-            <div className="flex flex-row gap-3 items-center ">
-              <div className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm hover:bg-gray-700 cursor-pointer">
+            <div className="flex flex-row gap-3 items-center">
+              {/* Facebook */}
+              <a
+                href="https://www.facebook.com/jamaal.cabdi.79656"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm 
+               hover:bg-blue-600 transition-colors cursor-pointer"
+              >
                 <Facebook className="text-white w-5 h-5" />
-              </div>
-              <div className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm hover:bg-gray-700 cursor-pointer">
+              </a>
+
+              {/* LinkedIn */}
+              <a
+                href="https://www.linkedin.com/in/jamal-abdirahim-mohamed/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm 
+               hover:bg-blue-500 transition-colors cursor-pointer"
+              >
                 <Linkedin className="text-white w-5 h-5" />
-              </div>
-              <div className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm hover:bg-gray-700 cursor-pointer">
+              </a>
+
+              {/* GitHub */}
+              <a
+                href="https://github.com/jamaal-Abdirahem"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-800 w-10 h-10 flex justify-center items-center rounded-sm 
+               hover:bg-gray-600 transition-colors cursor-pointer"
+              >
                 <Github className="text-white w-5 h-5" />
-              </div>
+              </a>
             </div>
           </div>
         </div>
